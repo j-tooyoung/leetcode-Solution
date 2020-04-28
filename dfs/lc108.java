@@ -1,5 +1,3 @@
-package PACKAGE_NAME;
-
 /**
  * ClassName: lc108
  * Package: PACKAGE_NAME
@@ -10,4 +8,5 @@ package PACKAGE_NAME;
  */
 
 public class lc108 {
+
 }

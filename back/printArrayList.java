@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+import java.util.List;
 
 /**
  * ClassName: printArrayList
@@ -9,5 +9,20 @@ package PACKAGE_NAME;
  * @author: tooyoung
  */
 
-public class printArrayList {
+public class printArrayList<T> {
+
+
+    public  void printArrayList(List<List<T>> res) {
+        System.out.println("[");
+        for (List<T> ls : res) {
+            System.out.print("  [");
+            for (int i = 0; i < ls.size() - 1; i++) {
+                System.out.print(ls.get(i) + ",");
+            }
+            System.out.print(ls.get(ls.size() - 1) + "]\n");
+        }
+        System.out.println("]");
+    }
+
+
 }

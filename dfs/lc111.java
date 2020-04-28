@@ -1,5 +1,3 @@
-package PACKAGE_NAME;
-
 /**
  * ClassName: lc111
  * Package: PACKAGE_NAME
@@ -9,5 +7,6 @@ package PACKAGE_NAME;
  * @author: tooyoung
  */
 
-public class lc111 {
-}
+//public class lc111 {
+
+//}

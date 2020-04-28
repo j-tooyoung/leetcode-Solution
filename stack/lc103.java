@@ -1,5 +1,3 @@
-package PACKAGE_NAME;
-
 /**
  * ClassName: lc103
  * Package: PACKAGE_NAME
@@ -8,6 +6,7 @@ package PACKAGE_NAME;
  * @date: 2020/4/8 23:11
  * @author: tooyoung
  */
-
-public class lc103 {
-}
+//
+//public class lc103 {
+//
+//}

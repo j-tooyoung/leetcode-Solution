@@ -1,5 +1,3 @@
-package PACKAGE_NAME;
-
 /**
  * ClassName: lc122
  * Package: PACKAGE_NAME
@@ -10,4 +8,9 @@ package PACKAGE_NAME;
  */
 
 public class lc122 {
+
+    public static void main(String[] args) {
+
+    }
+
 }

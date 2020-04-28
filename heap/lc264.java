@@ -1,5 +1,3 @@
-package PACKAGE_NAME;
-
 /**
  * ClassName: lc264
  * Package: PACKAGE_NAME
@@ -8,6 +6,6 @@ package PACKAGE_NAME;
  * @date: 2020/4/8 23:09
  * @author: tooyoung
  */
-
-public class lc264 {
-}
+//
+//public class lc264 {
+//}

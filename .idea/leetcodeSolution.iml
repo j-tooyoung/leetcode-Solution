@@ -4,6 +4,25 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src/main" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/queue" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TwoPointers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/binarySearch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dfs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SlidingWindows" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/stack" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/back" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/dp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/greedy" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bfs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/linkedlist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/heap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/uionfind" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/design" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Tree" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/String" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/utils" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bit" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -1,5 +1,3 @@
-package PACKAGE_NAME;
-
 /**
  * ClassName: lc407
  * Package: PACKAGE_NAME
@@ -10,4 +8,10 @@ package PACKAGE_NAME;
  */
 
 public class lc407 {
+
+    public static void main(String[] args) {
+
+    }
+
+
 }

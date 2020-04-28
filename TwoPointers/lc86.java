@@ -1,5 +1,3 @@
-package PACKAGE_NAME;
-
 /**
  * ClassName: lc86
  * Package: PACKAGE_NAME
@@ -8,6 +6,10 @@ package PACKAGE_NAME;
  * @date: 2020/4/8 22:40
  * @author: tooyoung
  */
-
-public class lc86 {
-}
+//
+//public class lc86 {
+//
+//    public static void main(String[] args) {
+//
+//    }
+//}
