@@ -6,10 +6,10 @@
  * @date: 2020/4/8 23:11
  * @author: tooyoung
  */
-
-public class lc144 {
-
-    public static void main(String[] args) {
-
-    }
-}
+//
+//public class lc144 {
+//
+//    public static void main(String[] args) {
+//
+//    }
+//}

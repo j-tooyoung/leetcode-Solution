@@ -29,11 +29,13 @@ public class lc40 {
 
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
         List<Integer> path = new ArrayList<>();
+        Arrays.sort(candidates);
         helper(candidates, target, res, path, 0);
         return res;
     }
 
     private void helper(int[] candidates, int target, List<List<Integer>> res, List<Integer> path, int start) {
+        // 剪支
         if (target < 0) return;
         if (target == 0) {
             res.add(new ArrayList<>(path));
