@@ -36,8 +36,7 @@ public class lc45 {
             // 获取[i+1,left]区间内能跳的最大值，需要保存并更新下一步位置
             int left = i + nums[i];
             if (left >= nums.length - 1) return ++cnt;
-            int maxPos = 0;
-            int maxVal = 0;
+            int maxPos = 0, maxVal = 0;
             for (int j = i + 1 ; j <= left; j++) {
                 if (j + nums[j] >= maxVal) {
                     maxVal = j + nums[j];

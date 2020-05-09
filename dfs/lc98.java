@@ -6,9 +6,9 @@
  * @date: 2020/4/8 22:52
  * @author: tooyoung
  */
-
-public class lc98 {
-    public static void main(String[] args) {
-
-    }
-}
+//
+//public class lc98 {
+//    public static void main(String[] args) {
+//
+//    }
+//}
