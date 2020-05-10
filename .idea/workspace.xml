@@ -20,14 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d032b11-0541-4557-a7ae-138542730f28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Tree/lc98.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/lc221.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dp/lc983.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/lc236.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/week188/lc5404.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/week188/lc5405.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/week188/lc5406.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/week188/lc5407.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/cuttingRope.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dfs/lc98.java" beforeDir="false" afterPath="$PROJECT_DIR$/dfs/lc98.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greedy/lc45.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedy/lc45.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc45.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc45.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc98.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc98.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc983.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc983.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jianzhiofferSolution" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -87,7 +87,14 @@
       <recent name="H:\java project\leetcodeSolution\design" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lc983">
+  <component name="RunManager" selected="Application.lc5405">
+    <configuration name="cuttingRope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cuttingRope" />
+      <module name="leetcodeSolution" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="lc45" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lc45" />
       <module name="leetcodeSolution" />
@@ -95,16 +102,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc5385" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc5385" />
+    <configuration name="lc5404" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week188.lc5404" />
       <module name="leetcodeSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week188.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc5386" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc5386" />
+    <configuration name="lc5405" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week188.lc5405" />
       <module name="leetcodeSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week188.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,20 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nextGreaterElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="nextGreaterElement" />
-      <module name="leetcodeSolution" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lc5405" />
+        <item itemvalue="Application.lc5404" />
+        <item itemvalue="Application.cuttingRope" />
         <item itemvalue="Application.lc983" />
         <item itemvalue="Application.lc45" />
-        <item itemvalue="Application.lc5386" />
-        <item itemvalue="Application.lc5385" />
-        <item itemvalue="Application.nextGreaterElement" />
       </list>
     </recent_temporary>
   </component>
@@ -182,6 +194,8 @@
       <workItem from="1588813220763" duration="601000" />
       <workItem from="1588906382209" duration="2055000" />
       <workItem from="1588990142919" duration="229000" />
+      <workItem from="1588991501722" duration="3790000" />
+      <workItem from="1589074330309" duration="5124000" />
     </task>
     <servers />
   </component>
@@ -213,22 +227,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="933" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1588990371284" />
-    <state width="723" height="183" key="GridCell.Tab.0.bottom" timestamp="1588736814665">
+    <state width="723" height="182" key="GridCell.Tab.0.bottom" timestamp="1589082355888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1588736814665" />
-    <state width="723" height="183" key="GridCell.Tab.0.center" timestamp="1588736814665">
+    <state width="723" height="182" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589082355888" />
+    <state width="723" height="182" key="GridCell.Tab.0.center" timestamp="1589082355887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1588736814665" />
-    <state width="723" height="183" key="GridCell.Tab.0.left" timestamp="1588736814665">
+    <state width="723" height="182" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589082355887" />
+    <state width="723" height="182" key="GridCell.Tab.0.left" timestamp="1589082355887">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1588736814665" />
-    <state width="723" height="183" key="GridCell.Tab.0.right" timestamp="1588736814665">
+    <state width="723" height="182" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589082355887" />
+    <state width="723" height="182" key="GridCell.Tab.0.right" timestamp="1589082355888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1588736814665" />
+    <state width="723" height="182" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589082355888" />
     <state width="723" height="202" key="GridCell.Tab.1.bottom" timestamp="1587569934478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
