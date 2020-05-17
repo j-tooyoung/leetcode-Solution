@@ -1,6 +1,7 @@
 package week188;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -70,5 +71,16 @@ public class lc5405 {
         System.out.println(countTriplets1(arr2));
         System.out.println(countTriplets1(arr3));
         System.out.println(countTriplets1(arr4));
+    }
+
+    public int[] subSort(int[] array) {
+        if(array == null || array.length < 1) return new int[]{-1,-1};
+        int[] arr = new int[array.length];
+        System.arraycopy(array, 0, arr, 0, arr.length);
+        Arrays.sort(arr);
+        int i = 0, j = arr.length - 1;
+        while(i <arr.length && arr[i] == array[i]) i++;
+        while(j >= 0 && arr[j] == array[j]) j--;
+        return i > j ?new int[]{-1,-1} : new int[]{i,j};
     }
 }
