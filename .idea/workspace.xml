@@ -20,17 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d032b11-0541-4557-a7ae-138542730f28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/lc5412.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/lc5413.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/lc5414.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/lc5415.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week189/lc5396.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week189/lc5397.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week189/lc5398.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week189/lc5399.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Weeklycontest/week188/lc5405.java" beforeDir="false" afterPath="$PROJECT_DIR$/Weeklycontest/week188/lc5405.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/week188/lc5405.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/week188/lc5405.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dp/lc152.java" beforeDir="false" afterPath="$PROJECT_DIR$/dp/lc152.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,9 +82,9 @@
       <recent name="H:\java project\leetcodeSolution\design" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lc5413">
-    <configuration name="cuttingRope" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cuttingRope" />
+  <component name="RunManager" selected="Application.lc152">
+    <configuration name="lc152" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc152" />
       <module name="leetcodeSolution" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -147,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lc152" />
         <item itemvalue="Application.lc5413" />
         <item itemvalue="Application.lc5397" />
         <item itemvalue="Application.lc5405" />
         <item itemvalue="Application.lc5404" />
-        <item itemvalue="Application.cuttingRope" />
       </list>
     </recent_temporary>
   </component>
@@ -210,7 +201,8 @@
       <workItem from="1589158753610" duration="1213000" />
       <workItem from="1589640441933" duration="3909000" />
       <workItem from="1589682844474" duration="397000" />
-      <workItem from="1589683266520" duration="3919000" />
+      <workItem from="1589683266520" duration="5316000" />
+      <workItem from="1589806442132" duration="680000" />
     </task>
     <servers />
   </component>
@@ -238,26 +230,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1589683571815" />
-    <state x="933" y="170" key="FileChooserDialogImpl" timestamp="1589160308215">
+    <state x="933" y="170" key="FileChooserDialogImpl" timestamp="1589702643720">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="933" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589160308215" />
-    <state width="1493" height="162" key="GridCell.Tab.0.bottom" timestamp="1589685410887">
+    <state x="933" y="170" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1589702643720" />
+    <state width="723" height="166" key="GridCell.Tab.0.bottom" timestamp="1589807130138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589685410887" />
-    <state width="1493" height="162" key="GridCell.Tab.0.center" timestamp="1589685410887">
+    <state width="723" height="166" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1589807130138" />
+    <state width="723" height="166" key="GridCell.Tab.0.center" timestamp="1589807130138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589685410887" />
-    <state width="1493" height="162" key="GridCell.Tab.0.left" timestamp="1589685410887">
+    <state width="723" height="166" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1589807130138" />
+    <state width="723" height="166" key="GridCell.Tab.0.left" timestamp="1589807130138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589685410887" />
-    <state width="1493" height="162" key="GridCell.Tab.0.right" timestamp="1589685410887">
+    <state width="723" height="166" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1589807130138" />
+    <state width="723" height="166" key="GridCell.Tab.0.right" timestamp="1589807130138">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="162" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589685410887" />
+    <state width="723" height="166" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1589807130138" />
     <state width="723" height="202" key="GridCell.Tab.1.bottom" timestamp="1587569934478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
