@@ -7,6 +7,6 @@
  * @author: tooyoung
  */
 
-public class lc105 {
-
-}
+//public class lc105 {
+//
+//}

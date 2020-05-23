@@ -1,4 +1,6 @@
-package PACKAGE_NAME;
-
-public class lc101 {
-}
+/**
+ *
+ */
+//public class lc101 {
+//
+//}
