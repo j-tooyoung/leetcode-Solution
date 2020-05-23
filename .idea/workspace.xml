@@ -20,26 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d032b11-0541-4557-a7ae-138542730f28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/String/lc125.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/lc1371.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/lc680.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc101.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc104.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc105.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc107.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc110.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc111.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc1302.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc1325.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc429.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc572.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc589.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc669.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc814.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc872.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc965.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1371$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1371.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc5$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc680.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/lc125.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/lc125.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/lc1371.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/lc1371.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/lc680.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/lc680.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc101.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc101.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc104.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc104.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc105.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc105.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc107.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc107.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc110.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc110.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc111.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc111.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc1302.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc1302.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc1325.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc1325.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tree/lc145.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc145.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc429.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc429.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc572.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc572.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc589.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc589.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc669.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc669.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc814.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc814.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc872.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc872.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc965.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc965.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TwoPointers/lc125.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwoPointers/lc125.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bfs/lc111.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc111.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dfs/lc105.java" beforeDir="false" afterPath="$PROJECT_DIR$/dfs/lc105.java" afterDir="false" />
@@ -220,7 +224,7 @@
       <workItem from="1590026631753" duration="4260000" />
       <workItem from="1590109041288" duration="2261000" />
       <workItem from="1590199295569" duration="866000" />
-      <workItem from="1590213168962" duration="11799000" />
+      <workItem from="1590213168962" duration="12098000" />
     </task>
     <servers />
   </component>
