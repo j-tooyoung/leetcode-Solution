@@ -34,14 +34,20 @@ public class lc145 {
         Stack<TreeNode> st = new Stack<>();
 
         TreeNode cur = root;
-        while (!st.isEmpty() && cur != null) {
-            while (cur != null) {
-                st.add(cur);
-                cur = cur.left;
+        while (!st.isEmpty() || cur != null) {
+            while (cur != null || cur.left != null) {
+                if (cur != null){
+                    st.add(cur);
+                    cur = cur.left;
+                }
             }
-            cur = st.pop();
+            if (cur.right != null) {
+                cur = cur.right;
+            } else {
+                cur = st.pop();
+            }
+                res.add(cur.val);
 
-            if (cur.right != null) cur = cur.right;
         }
         return res;
     }
