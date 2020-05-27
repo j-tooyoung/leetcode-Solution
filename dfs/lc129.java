@@ -7,8 +7,8 @@
  * @author: tooyoung
  */
 
-public class lc129 {
-    public static void main(String[] args) {
-
-    }
-}
+//public class lc129 {
+//    public static void main(String[] args) {
+//
+//    }
+//}

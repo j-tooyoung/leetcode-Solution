@@ -12,12 +12,12 @@ public class lc287 {
     public int findDuplicate(int[] nums) {
 
         // 找交点
-        int fast = 0;
         int slow = 0;
+        int fast = 0;
         while (true) {
             fast = nums[nums[fast]];
             slow = nums[slow];
-//            System.out.println(fast + "," + slow);
+            System.out.println(fast + "," + slow);
             if (fast == slow) break;
         }
         // 找入口点
@@ -25,7 +25,7 @@ public class lc287 {
         while (slow != fast) {
             fast = nums[fast];
             slow = nums[slow];
-//            System.out.println(fast + "," + slow);
+            System.out.println(fast + "," + slow);
         }
         return slow;
     }
@@ -52,6 +52,7 @@ public class lc287 {
     public static void main(String[] args) {
         lc287 lc287 = new lc287();
         int[] nums = new int[]{1, 3, 4, 2, 2};
-        System.out.println(lc287.findDuplicate(nums));
+        int[] nums1 = new int[]{3,1,3,4,2};
+        System.out.println(lc287.findDuplicate(nums1));
     }
 }
