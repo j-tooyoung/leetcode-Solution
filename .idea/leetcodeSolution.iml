@@ -25,6 +25,7 @@
       <sourceFolder url="file://$MODULE_DIR$/bit" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Weeklycontest" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Array" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/math" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
