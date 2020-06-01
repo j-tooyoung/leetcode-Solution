@@ -20,29 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d032b11-0541-4557-a7ae-138542730f28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/lc1248.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/lc560.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week191/lc5424.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week191/lc5425.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week191/lc5426.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week191/lc5427.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bfs/lc0810.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/math/CountPrimes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/queue/MaxPQ.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/StockSpanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/lc316.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/lc402.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/lc581.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/lc739.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/lc1460.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/lcp06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greedy/lc1431.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hash/Codec.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math/lc17_1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcodeSolution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcodeSolution.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tree/lc101.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc101.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/META-INF/leetcodeSolution.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc198.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc198.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc496.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc496.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc84.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc84.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/lc496.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack/lc496.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/lc84.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack/lc84.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/lc1248.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/lc1248.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Array/lc560.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/lc560.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1248.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1248.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc560.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc560.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,9 +91,16 @@
       <recent name="H:\java project\leetcodeSolution\design" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lc560">
+  <component name="RunManager" selected="Application.lc1248">
     <configuration name="CountPrimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CountPrimes" />
+      <module name="leetcodeSolution" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="lc1248" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc1248" />
       <module name="leetcodeSolution" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,20 +139,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc84" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc84" />
-      <module name="leetcodeSolution" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lc1248" />
         <item itemvalue="Application.lc560" />
         <item itemvalue="Application.lc5425" />
         <item itemvalue="Application.lc5426" />
         <item itemvalue="Application.CountPrimes" />
-        <item itemvalue="Application.lc84" />
       </list>
     </recent_temporary>
   </component>
@@ -231,7 +219,7 @@
       <workItem from="1590578226341" duration="5712000" />
       <workItem from="1590627502739" duration="1925000" />
       <workItem from="1590803014988" duration="5977000" />
-      <workItem from="1590888868974" duration="13234000" />
+      <workItem from="1590888868974" duration="22312000" />
     </task>
     <servers />
   </component>
@@ -263,22 +251,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="275" y="165" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590628010075" />
-    <state width="723" height="206" key="GridCell.Tab.0.bottom" timestamp="1590927699569">
+    <state width="1493" height="136" key="GridCell.Tab.0.bottom" timestamp="1590976870910">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="206" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590927699569" />
-    <state width="723" height="206" key="GridCell.Tab.0.center" timestamp="1590927699569">
+    <state width="1493" height="136" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590976870910" />
+    <state width="1493" height="136" key="GridCell.Tab.0.center" timestamp="1590976870910">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="206" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590927699569" />
-    <state width="723" height="206" key="GridCell.Tab.0.left" timestamp="1590927699569">
+    <state width="1493" height="136" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590976870910" />
+    <state width="1493" height="136" key="GridCell.Tab.0.left" timestamp="1590976870910">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="206" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590927699569" />
-    <state width="723" height="206" key="GridCell.Tab.0.right" timestamp="1590927699569">
+    <state width="1493" height="136" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590976870909" />
+    <state width="1493" height="136" key="GridCell.Tab.0.right" timestamp="1590976870910">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="206" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590927699569" />
+    <state width="1493" height="136" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590976870910" />
     <state width="723" height="202" key="GridCell.Tab.1.bottom" timestamp="1587569934478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -299,6 +287,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="270" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586931769264" />
+    <state x="356" y="25" key="new project wizard" timestamp="1591012049741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="356" y="25" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1591012049741" />
     <state x="804" y="190" key="run.anything.popup" timestamp="1590236542253">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

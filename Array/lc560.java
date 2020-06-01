@@ -23,9 +23,7 @@ public class lc560 {
             }
             map.put(preSum[i + 1], map.getOrDefault(preSum[i + 1], 0) + 1);
         }
-
         return res;
-
     }
 
 

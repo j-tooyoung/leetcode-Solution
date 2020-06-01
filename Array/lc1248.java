@@ -7,40 +7,25 @@ import java.util.Map;
  */
 public class lc1248 {
 
+    // 前缀和+ map优化
     public static int numberOfSubarrays(int[] nums, int k) {
-//        int len = nums.length;
-//        int cnt = 0;
-//        int res = 0;
-//        for (int i = 0, j = 0; j < len; ) {
-//
-//            cnt = nums[j] % 2 == 0 ? cnt : ++cnt;
-//            j++;
-//
-//            while (cnt == k) {
-//                res++;
-//                cnt = nums[i] % 2 == 0 ? cnt : --cnt;
-//              i++;
-//            }
-//        }
-//        return res;
-//        int len = nums.length;
-//        int[] cnt = new int[len + 1];
-//        Map<Integer, Integer> map = new HashMap<>();
-//        int res = 0;
-//        for (int i = 0; i < len; i++) {
-//            if (nums[i] % 2 == 1) {
-//                cnt[i + 1] = cnt[i] + 1;
-//                map.put(cnt[i + 1], map.getOrDefault(map.get(cnt[i + 1]), 0) + 1);
-//            } else {
-//                cnt[i + 1] = cnt[i];
-//                map.put(cnt[i + 1], map.getOrDefault(map.get(cnt[i + 1]), 0) + 1);
-//            }
-//            if (map.getOrDefault(cnt[i + 1], 0) >= k) {
-//                res += map.getOrDefault(cnt[i + 1] - k, 0);
-//            }
-//        }
-//        return res;
-        return 0;
+        int len = nums.length;
+        int[] cnt = new int[len + 1];
+        Map<Integer, Integer> map = new HashMap<>();
+        // 初始化第一个元素
+        map.put(0, 1);
+        int res = 0;
+        for (int i = 0; i < len; i++) {
+            cnt[i + 1] = (nums[i] % 2 == 1) ? cnt[i] + 1 : cnt[i];
+//            System.out.print(cnt[i + 1]+",");
+            map.put(cnt[i + 1], map.getOrDefault(cnt[i + 1], 0) + 1);
+            // 如果满足要求
+            if (cnt[i + 1] >= k) {
+                res += map.get(cnt[i + 1] - k);
+            }
+        }
+
+        return res;
     }
 
     public static void main(String[] args) {
