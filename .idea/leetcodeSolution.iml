@@ -28,6 +28,9 @@
       <sourceFolder url="file://$MODULE_DIR$/math" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/hash" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/unionFind" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mergeSort" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graph" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Advanced" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

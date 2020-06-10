@@ -20,21 +20,111 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d032b11-0541-4557-a7ae-138542730f28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/String/lc46_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc108.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc230.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc450.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc501.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc530.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc700.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc701.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc783.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc99.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TwoPointers/lc532.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/lc1019.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/lc208.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/lc211.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/lc239.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/lc307.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/lc648.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/lc676.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/lc677.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/lc720.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/lc745.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/lc901.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/lc907.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tree/BST/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoPointers/lc167.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoPointers/lc455.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoPointers/lc855.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoPointers/lc917.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoPointers/lc925.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoPointers/lc977.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoPointers/lc986.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TwoPointers/lc992.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bfs/lc131.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bfs/lc241.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bfs/lc282.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bfs/lc542.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bfs/lc675.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bfs/lc698.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bfs/lc752.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bfs/lc818.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bfs/lc842.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bfs/lc93.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bfs/lc934.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binarySearch/lc1011.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binarySearch/lc378.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binarySearch/lc668.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binarySearch/lc719.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binarySearch/lc786.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binarySearch/lc852.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binarySearch/lc875.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/binarySearch/lc981.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dfs/lc37.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/lc1137.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/lc1218.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dp/lc303.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc1042.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc1129.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc1162.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc1192.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc1202.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc1263.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc1298.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc1319.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc133.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc1334.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc138.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc200.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc207.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc210.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc332.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc399.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc433.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc547.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc684.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc685.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc695.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc721.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc733.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc737.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc743.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc785.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc787.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc802.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc815.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc827.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc839.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc841.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc847.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc863.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc864.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc882.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc886.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc924.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc943.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc952.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc959.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc980.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc990.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc996.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/lc997.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math/lc9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mergeSort/lc153.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mergeSort/lc154.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mergeSort/lc315.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mergeSort/lc912.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcodeSolution.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcodeSolution.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dfs/lc108.java" beforeDir="false" afterPath="$PROJECT_DIR$/dfs/lc108.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dfs/lc99.java" beforeDir="false" afterPath="$PROJECT_DIR$/dfs/lc99.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc108.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc108.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc108.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc230.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc450.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc501.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc530.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc700.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc701.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc98.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tree/lc99.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +171,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../j3y/BookSystem-master" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -238,6 +328,8 @@
       <workItem from="1591497059167" duration="5546000" />
       <workItem from="1591622426917" duration="5616000" />
       <workItem from="1591689138938" duration="8814000" />
+      <workItem from="1591706717247" duration="207000" />
+      <workItem from="1591753421703" duration="3723000" />
     </task>
     <servers />
   </component>
