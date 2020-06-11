@@ -1,4 +1,3 @@
-import com.sun.org.apache.xpath.internal.operations.String;
 
 /**
  * ClassName: lc125
@@ -12,29 +11,35 @@ import com.sun.org.apache.xpath.internal.operations.String;
 public class lc125 {
 
     public boolean isPalindrome(String s) {
-//        s.replace("")
-//        int i = 0, j = s.length() - 1;
-////        while (i < j) {
-////            if (Character.isLetterOrDigit(s.charAt(i))) i++;
-//////            if ((s.charAt(i))) i++;
-////            if (Character.isLetterOrDigit(s.charAt(j))) j--;
-////            if (i < j) {
-////                if (Character.toLowerCase(s.charAt(i)) != Character.toLowerCase(s.charAt(j))) {
-////                    return false;
-////                } else {
-////                    i++;
-////                    j--;
-////                }
-////            }
-////        }
-////        return true;
-//            if (s == null || s.length() == 0) return true;
-//        StringBuilder sb = new StringBuilder(s.toLo);
-
+        int i = 0, j = s.length() - 1;
+        char[] ch = s.toCharArray();
+        while (i < j) {
+            // 越界 ".,"
+//            while (!Character.isLetterOrDigit(ch[i])) {
+            while (i< j && !Character.isLetterOrDigit(ch[i])) {
+                i++;
+            }
+            while (i< j && !Character.isLetterOrDigit(ch[j])) {
+                j--;
+            }
+            if (Character.toLowerCase(ch[i]) != Character.toLowerCase(ch[j])) {
+                return false;
+            }
+            i++;
+            j--;
+        }
         return true;
     }
 
-    public static void main(String[] args) {
+
+    public boolean isPalindrome1(String s) {
+        if(s.length() == 0) return true;
+
+        StringBuilder sb = new StringBuilder(s.toLowerCase().replaceAll("[^a-z0-9]", ""));
+
+        return sb.toString().equals(sb.reverse().toString());
+    }
+     public static void main(String[] args) {
 
     }
 }

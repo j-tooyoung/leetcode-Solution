@@ -2,7 +2,9 @@
  * ClassName: lc16
  * Package: PACKAGE_NAME
  * Description:
- * 四数之和
+ * 16. 最接近的三数之和
+ * https://leetcode-cn.com/problems/3sum-closest/
+ *
  * @date: 2020/4/8 22:37
  * @author: tooyoung
  */

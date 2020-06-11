@@ -13,6 +13,7 @@ import java.util.Arrays;
 
 public class lc11 {
 
+    //双指针
     public int maxArea(int[] height) {
         int res = 0;
         int i = 0, j = height.length - 1;
