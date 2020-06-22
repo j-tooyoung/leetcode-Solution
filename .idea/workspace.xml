@@ -20,23 +20,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d032b11-0541-4557-a7ae-138542730f28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week193/TreeAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week193/lc5436.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week193/lc5437.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week193/lc5438.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greedy/lc1005.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greedy/lc1029.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greedy/lc1111.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greedy/lc1217.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greedy/lc392.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greedy/lc402.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/lc1013.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/lc1071.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/lc16_18.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/week194/lc5440.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/week194/lc5441.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/week194/lc5442.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/week194/lc5443.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bfs/lc515.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dfs/lc34_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/greedy/lc435.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/lc14.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/lc14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/lc392.java" beforeDir="false" afterPath="$PROJECT_DIR$/dp/lc392.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1011.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1011.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc14.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc14.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc392.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc392.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/lc402.java" beforeDir="false" afterPath="$PROJECT_DIR$/stack/lc402.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/lc79.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/lc79.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bfs/lc102.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc102.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bfs/lc103.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc103.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bfs/lc107.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc107.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bfs/lc199.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc199.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bfs/lc200.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc200.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bfs/lc32i.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc32i.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bfs/lc32ii.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc32ii.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bfs/lc32iii.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc32iii.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bfs/lc993.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc993.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dfs/lc124.java" beforeDir="false" afterPath="$PROJECT_DIR$/dfs/lc124.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/greedy/lc452.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedy/lc452.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1005.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1005.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc102.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc102.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc103.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc103.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc107.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc107.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc199.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc199.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc32i.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc32i.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc32ii.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc32ii.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc32iii.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc32iii.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc452.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc452.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc79.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc79.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc993.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc993.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,47 +114,48 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="String" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\java project\leetcodeSolution\design" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lc1005">
-    <configuration name="lc1005" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc1005" />
+  <component name="RunManager" selected="Application.lc200">
+    <configuration name="lc1013" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc1013" />
       <module name="leetcodeSolution" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc1111" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc1111" />
+    <configuration name="lc1071" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc1071" />
       <module name="leetcodeSolution" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc14" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc14" />
+    <configuration name="lc200" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc200" />
       <module name="leetcodeSolution" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc392" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc392" />
+    <configuration name="lc435" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc435" />
       <module name="leetcodeSolution" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc5438" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week193.lc5438" />
+    <configuration name="lc5441" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week194.lc5441" />
       <module name="leetcodeSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week193.*" />
+          <option name="PATTERN" value="week194.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lc1005" />
-        <item itemvalue="Application.lc1111" />
-        <item itemvalue="Application.lc392" />
-        <item itemvalue="Application.lc14" />
-        <item itemvalue="Application.lc5438" />
+        <item itemvalue="Application.lc200" />
+        <item itemvalue="Application.lc1071" />
+        <item itemvalue="Application.lc1013" />
+        <item itemvalue="Application.lc5441" />
+        <item itemvalue="Application.lc435" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +263,13 @@
       <workItem from="1592101931821" duration="9508000" />
       <workItem from="1592230375878" duration="177000" />
       <workItem from="1592275385146" duration="806000" />
-      <workItem from="1592448721459" duration="7434000" />
+      <workItem from="1592448721459" duration="8187000" />
+      <workItem from="1592526172396" duration="1266000" />
+      <workItem from="1592536945492" duration="42000" />
+      <workItem from="1592538845549" duration="6370000" />
+      <workItem from="1592618376286" duration="12227000" />
+      <workItem from="1592699853682" duration="23515000" />
+      <workItem from="1592795334544" duration="6879000" />
     </task>
     <servers />
   </component>
@@ -273,10 +297,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1592461782040" />
-    <state x="928" y="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591406507654">
+    <state x="928" y="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592727062536">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="928" y="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1591406507654" />
+    <state x="928" y="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1592727062536" />
     <state x="896" y="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591758076799">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -285,22 +309,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="884" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592230552618" />
-    <state width="723" height="146" key="GridCell.Tab.0.bottom" timestamp="1592463402669">
+    <state width="870" height="179" key="GridCell.Tab.0.bottom" timestamp="1592830374549">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="146" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592463402669" />
-    <state width="723" height="146" key="GridCell.Tab.0.center" timestamp="1592463402669">
+    <state width="870" height="179" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592830374549" />
+    <state width="870" height="179" key="GridCell.Tab.0.center" timestamp="1592830374548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="146" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592463402669" />
-    <state width="723" height="146" key="GridCell.Tab.0.left" timestamp="1592463402669">
+    <state width="870" height="179" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592830374548" />
+    <state width="870" height="179" key="GridCell.Tab.0.left" timestamp="1592830374548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="146" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592463402669" />
-    <state width="723" height="146" key="GridCell.Tab.0.right" timestamp="1592463402669">
+    <state width="870" height="179" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592830374548" />
+    <state width="870" height="179" key="GridCell.Tab.0.right" timestamp="1592830374548">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="146" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592463402669" />
+    <state width="870" height="179" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592830374548" />
     <state width="723" height="202" key="GridCell.Tab.1.bottom" timestamp="1587569934478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -317,6 +341,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="723" height="202" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587569934478" />
+    <state x="916" y="114" key="RollbackChangesDialog" timestamp="1592545529242">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="916" y="114" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1592545529242" />
     <state x="270" y="57" key="SettingsEditor" timestamp="1586931769264">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -337,10 +365,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="805" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1592461845630" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592451781868">
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1592640701698">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592451781868" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1592640701698" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -395,6 +423,11 @@
           <url>file://$PROJECT_DIR$/greedy/lc392.java</url>
           <line>12</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Array/lc1071.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
