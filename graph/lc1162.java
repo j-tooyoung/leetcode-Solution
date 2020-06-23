@@ -1,7 +1,7 @@
-/**
- * grid + connected components
- *
- */
-public class lc1162 {
-
-}
+///**
+// * grid + connected components
+// *
+// */
+//public class lc1162 {
+//
+//}

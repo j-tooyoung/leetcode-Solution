@@ -1,6 +1,6 @@
-/**
- *
- */
-public class lc827 {
-
-}
+///**
+// *
+// */
+//public class lc827 {
+//
+//}
