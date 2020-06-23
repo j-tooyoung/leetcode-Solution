@@ -20,40 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d032b11-0541-4557-a7ae-138542730f28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/lc1013.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/lc1071.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/lc16_18.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week194/lc5440.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week194/lc5441.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week194/lc5442.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week194/lc5443.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bfs/lc515.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dfs/lc34_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/greedy/lc435.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bit/lc67.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/lc79.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/lc79.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bfs/lc102.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc102.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bfs/lc103.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc103.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bfs/lc107.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc107.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bfs/lc199.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc199.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bfs/lc200.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc200.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bfs/lc32i.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc32i.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bfs/lc32ii.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc32ii.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bfs/lc32iii.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc32iii.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bfs/lc993.java" beforeDir="false" afterPath="$PROJECT_DIR$/bfs/lc993.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dfs/lc124.java" beforeDir="false" afterPath="$PROJECT_DIR$/dfs/lc124.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greedy/lc452.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedy/lc452.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1005.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1005.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc102.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc102.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc103.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc103.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc107.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc107.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc199.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc199.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc32i.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc32i.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc32ii.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc32ii.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc32iii.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc32iii.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc452.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc452.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc79.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc79.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc993.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc993.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +238,8 @@
       <workItem from="1592538845549" duration="6370000" />
       <workItem from="1592618376286" duration="12227000" />
       <workItem from="1592699853682" duration="23515000" />
-      <workItem from="1592795334544" duration="6879000" />
+      <workItem from="1592795334544" duration="8175000" />
+      <workItem from="1592870239041" duration="4774000" />
     </task>
     <servers />
   </component>
@@ -309,22 +279,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="884" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592230552618" />
-    <state width="870" height="179" key="GridCell.Tab.0.bottom" timestamp="1592830374549">
+    <state width="1493" height="152" key="GridCell.Tab.0.bottom" timestamp="1592874214341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="870" height="179" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592830374549" />
-    <state width="870" height="179" key="GridCell.Tab.0.center" timestamp="1592830374548">
+    <state width="1493" height="152" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1592874214341" />
+    <state width="1493" height="152" key="GridCell.Tab.0.center" timestamp="1592874214340">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="870" height="179" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592830374548" />
-    <state width="870" height="179" key="GridCell.Tab.0.left" timestamp="1592830374548">
+    <state width="1493" height="152" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1592874214340" />
+    <state width="1493" height="152" key="GridCell.Tab.0.left" timestamp="1592874214340">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="870" height="179" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592830374548" />
-    <state width="870" height="179" key="GridCell.Tab.0.right" timestamp="1592830374548">
+    <state width="1493" height="152" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1592874214340" />
+    <state width="1493" height="152" key="GridCell.Tab.0.right" timestamp="1592874214341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="870" height="179" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592830374548" />
+    <state width="1493" height="152" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1592874214341" />
     <state width="723" height="202" key="GridCell.Tab.1.bottom" timestamp="1587569934478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -428,6 +398,11 @@
           <url>file://$PROJECT_DIR$/Array/lc1071.java</url>
           <line>28</line>
           <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/bfs/lc200.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
