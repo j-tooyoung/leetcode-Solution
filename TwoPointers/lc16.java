@@ -11,7 +11,15 @@
 
 public class lc16 {
 
-    public static void main(String[] args) {
+    public static int threeSumClosest(int[] nums, int target) {
+        int res = 0;
+        int len = nums.length;
 
+        return res;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {-1,2,1,-4};
+        System.out.println(threeSumClosest(nums, 1));
     }
 }
