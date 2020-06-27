@@ -1,6 +1,6 @@
-/**
- *
- */
-public class lc241 {
-
-}
+///**
+// *
+// */
+//public class lc241 {
+//
+//}

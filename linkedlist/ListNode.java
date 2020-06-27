@@ -79,7 +79,31 @@ public class ListNode {
         this.val = val;
     }
 
-        /**
+    private static ListNode createLinkedList(String arr) {
+        // arr [1,2,3,4,5]
+//        System.out.println(arr.substring(1, arr.length() - 1));
+        String[] ss = arr.replaceAll("\\[","").replaceAll("\\]","").split(",");
+        int[] res = new int[ss.length];
+        for (int i = 0; i < ss.length; i++) {
+            res[i] = Integer.parseInt(ss[i]);
+        }
+        return createLinkedList(res);
+    }
+
+    private static ListNode createLinkedList(int[] arr) {
+        if (arr.length == 0) {
+            return null;
+        }
+        ListNode head = new ListNode(arr[0]);
+        ListNode current = head;
+        for (int i = 1; i < arr.length; i++) {//过程
+            current.next = new ListNode(arr[i]);
+            current = current.next;
+        }
+        return head;
+    }
+
+    /**
      * 打印链表
      */
      static void printListNode(ListNode l) {
@@ -89,9 +113,16 @@ public class ListNode {
         }
         System.out.print("(");
         while (l.next != null) {
-            System.out.print(l.val + " -> ");
+//            System.out.print(l.val + " -> ");
+            System.out.printf("%d -> ", l.val);
             l = l.next;
         }
         System.out.println(l.val + ")");
     }
+
+    public static void main(String[] args) {
+        String s = "[1,2,3,4,5]";
+        ListNode head = createLinkedList(s);
+        printListNode(head);
+     }
 }
