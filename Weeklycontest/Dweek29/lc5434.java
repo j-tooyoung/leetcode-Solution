@@ -10,7 +10,9 @@ import java.util.List;
 public class lc5434 {
 
     public static int longestSubarray(int[] nums) {
-        List<Integer> res = new ArrayList<>();
+//        List<Integer> res = new ArrayList<>();
+//        if (res.size() < 1) return len - 1;
+        int ans = Integer.MIN_VALUE;
         int len = nums.length;
         for (int i = 0; i < len; i++) {
             if (nums[i] != 0) continue;
@@ -21,17 +23,11 @@ public class lc5434 {
             while (hi < len && nums[hi] == 1) {
                 hi++;
             }
+            ans = Math.max(ans, hi - lo - 2);
             //减去自身
-            res.add(hi - lo - 2);
-//            System.out.println(hi - lo - 2);
         }
-        int ans = Integer.MIN_VALUE;
-        if (res.size() < 1) return len - 1;
-//        for (int val : res) {
-//            ans = Math.max(ans, val);
-//        }
-//        return ans;
-        return res.stream().mapToInt(Integer::intValue).max().getAsInt();
+        return ans == Integer.MIN_VALUE ? -1 : ans;
+//        return res.stream().mapToInt(Integer::intValue).max().getAsInt();
     }
 
     public static void main(String[] args) {
