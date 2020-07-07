@@ -9,8 +9,19 @@ public class lc112 {
 
     //
     public boolean hasPathSum(TreeNode root, int sum) {
-        return false;
+        if(root == null) return false;
+        return dfs(root, sum);
     }
+
+    boolean dfs(TreeNode root, int sum){
+        if(root== null) return false;
+        sum -= root.val;
+
+        if(root.left == null && root.right == null && sum == 0) return true;
+
+        return dfs(root.left, sum) ||  dfs(root.right, sum);
+    }
+
     // 遍历所有路径，查看是否存在
     // 很慢
 //    List<Integer> path = new ArrayList<>();

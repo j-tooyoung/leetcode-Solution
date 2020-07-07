@@ -8,6 +8,7 @@ import java.util.Set;
  */
 public class lc41 {
 
+    //暴力
     public static int firstMissingPositive(int[] nums) {
         Arrays.sort(nums);
         int res = 1;
@@ -20,6 +21,33 @@ public class lc41 {
             }
         }
         return res;
+    }
+
+
+    public static int firstMissingPositive1(int[] nums) {
+        int len = nums.length;
+        for (int i = 0; i < nums.length; i++) {
+            //将数放到正确的位置
+            // 有重复数循环，
+            while (nums[i] - 1 != i && nums[i] > 0 && nums[i] - 1 < len && nums[i] != nums[nums[i] - 1]) {
+                swap(nums, nums[i] - 1, i);
+//                int tmp = nums[i];
+//                nums[i] = nums[nums[i] - 1];
+//                nums[tmp - 1] = tmp;
+            }
+        }
+        for (int i = 0; i < nums.length; i++) {
+            if (nums[i] != i + 1) {
+                return i;
+            }
+        }
+        return len + 1;
+    }
+
+    private static void swap(int[] nums, int index1, int index2) {
+        int temp = nums[index1];
+        nums[index1] = nums[index2];
+        nums[index2] = temp;
     }
 
     public static void main(String[] args) {
