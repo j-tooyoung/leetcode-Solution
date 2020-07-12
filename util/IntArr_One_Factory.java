@@ -7,7 +7,7 @@ public class IntArr_One_Factory implements TestHelperFactory<int[]> {
     @Override
     public int[] produce(String s) {
         String temp1 = s.replace("[", "");
-        String temp2 = temp1.replace("]", "");
+        String temp2 = temp1.replace("]", "").replaceAll("\"", "");
         if (temp2.length() == 0) {
             return new int[0];
         }

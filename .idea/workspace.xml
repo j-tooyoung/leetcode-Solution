@@ -21,20 +21,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d032b11-0541-4557-a7ae-138542730f28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/lc289.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/lc58_i.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week196/lc5452.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week196/lc5453.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week196/lc5454.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week196/lc5455.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dfs/lc08_06.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dfs/lc16_11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/linkedlist/lc04_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/lc1207.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/lc1304.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/lc1413.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/lc1475.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/lc832.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/lc1002.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/lc1309.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/lc1370.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/lc17_13.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/String/lc657.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/Dweek30/lc5177.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/Dweek30/lc5445.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/Dweek30/lc5446.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/Dweek30/lc5447.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/week197/lc5211.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/week197/lc5460.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/week197/lc5461.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Weeklycontest/week197/lc5463.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tree/lc112.java" beforeDir="false" afterPath="$PROJECT_DIR$/Tree/lc112.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash/lc41.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash/lc41.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc20.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc20.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc41.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc41.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/IntArr_One_Factory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/IntArr_One_Factory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc112.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc112.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc16_11.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc16_11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/IntArr_One_Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/IntArr_One_Factory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +94,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javaStudy/javaOn8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SpringBootProjectStudy/tycoding/tumo-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -92,7 +102,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.jsOptions" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -103,34 +113,34 @@
       <recent name="H:\java project\leetcodeSolution\design" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lc16_11">
-    <configuration name="lc16_11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc16_11" />
+  <component name="RunManager" selected="Application.lc5461">
+    <configuration name="lc1002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc1002" />
       <module name="leetcodeSolution" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc20" />
+    <configuration name="lc1304" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc1304" />
       <module name="leetcodeSolution" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc289" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc289" />
+    <configuration name="lc1370" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc1370" />
       <module name="leetcodeSolution" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc5453" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week196.lc5453" />
+    <configuration name="lc5445" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Dweek30.lc5445" />
       <module name="leetcodeSolution" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="week196.*" />
+          <option name="PATTERN" value="Dweek30.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,20 +148,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc58_i" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lc58_i" />
+    <configuration name="lc5461" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="week197.lc5461" />
       <module name="leetcodeSolution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="week197.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.lc16_11" />
-        <item itemvalue="Application.lc58_i" />
-        <item itemvalue="Application.lc5453" />
-        <item itemvalue="Application.lc289" />
-        <item itemvalue="Application.lc20" />
+        <item itemvalue="Application.lc5461" />
+        <item itemvalue="Application.lc5445" />
+        <item itemvalue="Application.lc1002" />
+        <item itemvalue="Application.lc1304" />
+        <item itemvalue="Application.lc1370" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +285,10 @@
       <workItem from="1593768379165" duration="2616000" />
       <workItem from="1593784916425" duration="8644000" />
       <workItem from="1593916205881" duration="5883000" />
-      <workItem from="1594048483587" duration="7033000" />
+      <workItem from="1594048483587" duration="7859000" />
+      <workItem from="1594167387233" duration="9309000" />
+      <workItem from="1594254611334" duration="883000" />
+      <workItem from="1594458033118" duration="10335000" />
     </task>
     <servers />
   </component>
@@ -309,26 +328,26 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="411" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1593223695681" />
-    <state x="884" y="168" key="FileChooserDialogImpl" timestamp="1594089249849">
+    <state x="884" y="168" key="FileChooserDialogImpl" timestamp="1594534486801">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="884" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594089249849" />
-    <state width="723" height="163" key="GridCell.Tab.0.bottom" timestamp="1594049956915">
+    <state x="884" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594534486801" />
+    <state width="724" height="210" key="GridCell.Tab.0.bottom" timestamp="1594522119033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="163" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594049956915" />
-    <state width="723" height="163" key="GridCell.Tab.0.center" timestamp="1594049956914">
+    <state width="724" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1594522119033" />
+    <state width="724" height="210" key="GridCell.Tab.0.center" timestamp="1594522119033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="163" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594049956914" />
-    <state width="723" height="163" key="GridCell.Tab.0.left" timestamp="1594049956914">
+    <state width="724" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1594522119033" />
+    <state width="724" height="210" key="GridCell.Tab.0.left" timestamp="1594522119033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="163" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594049956914" />
-    <state width="723" height="163" key="GridCell.Tab.0.right" timestamp="1594049956914">
+    <state width="724" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1594522119033" />
+    <state width="724" height="210" key="GridCell.Tab.0.right" timestamp="1594522119033">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="723" height="163" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594049956914" />
+    <state width="724" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1594522119033" />
     <state width="723" height="202" key="GridCell.Tab.1.bottom" timestamp="1587569934478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -349,10 +368,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="916" y="114" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1592545529242" />
-    <state x="171" y="22" key="SettingsEditor" timestamp="1593784849606">
+    <state x="540" y="78" key="SettingsEditor" timestamp="1594179149589">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="171" y="22" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1593784849606" />
+    <state x="540" y="78" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1594179149589" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1594083840975">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -369,14 +388,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="854" y="168" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1591666445955" />
-    <state x="805" y="190" key="run.anything.popup" timestamp="1592461845630">
+    <state x="805" y="190" key="run.anything.popup" timestamp="1594170399874">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="805" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1592461845630" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594133032812">
+    <state x="805" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1594170399874" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594516014155">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594133032812" />
+    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1594516014155" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -496,6 +515,21 @@
           <url>file://$PROJECT_DIR$/dp/lc1143.java</url>
           <line>11</line>
           <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/String/lc1309.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Array/lc1304.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/util/IntArr_One_Factory.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
