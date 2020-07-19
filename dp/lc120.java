@@ -19,6 +19,7 @@ public class lc120 {
         int row = triangle.size(), col = triangle.get(row - 1).size();
         int[][] dp = new int[row + 1][col + 1];
         for (int i = row - 1; i >= 0; i--) {
+            //优化，每次内层循环均计算了size()，浪费时间
             for (int j = 0; j < triangle.get(i).size(); j++) {
                 dp[i][j] = Math.min(dp[i + 1][j + 1], dp[i + 1][j]) + triangle.get(i).get(j);
             }
@@ -29,19 +30,20 @@ public class lc120 {
         return dp[0][0];
     }
 
-    // dfs暴力枚举 超时
+
+
+    // 空间优化dp
     public static int minimumTotal1(List<List<Integer>> triangle) {
         int row = triangle.size(), col = triangle.get(row - 1).size();
-        int[][] dp = new int[row + 1][col + 1];
+        int[] dp = new int[col + 1];
         for (int i = row - 1; i >= 0; i--) {
-            for (int j = 0; j < triangle.get(i).size(); j++) {
-                dp[i][j] = Math.min(dp[i + 1][j + 1], dp[i + 1][j]) + triangle.get(i).get(j);
+            int size = triangle.get(i).size();
+            List<Integer> list = triangle.get(i);
+            for (int j = 0; j < size; j++) {
+                dp[j] = Math.min(dp[j + 1], dp[j]) + list.get(j);
             }
         }
-//        for (int i = 0; i < row; i++) {
-//            System.out.println(Arrays.toString(dp[i]));
-//        }
-        return dp[0][0];
+        return dp[0];
     }
 
     public static void main(String[] args) {
