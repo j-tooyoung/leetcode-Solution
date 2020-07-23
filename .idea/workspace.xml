@@ -20,41 +20,7 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d032b11-0541-4557-a7ae-138542730f28" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/lc1051.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/lc1051.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/lc1200.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/lc1200.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Array/lc1252.java" beforeDir="false" afterPath="$PROJECT_DIR$/Array/lc1252.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/lc821.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/lc821.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/lc893.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/lc893.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TwoPointers/lc167.java" beforeDir="false" afterPath="$PROJECT_DIR$/TwoPointers/lc167.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binarySearch/lc153.java" beforeDir="false" afterPath="$PROJECT_DIR$/binarySearch/lc153.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binarySearch/lc154.java" beforeDir="false" afterPath="$PROJECT_DIR$/binarySearch/lc154.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/binarySearch/lc81.java" beforeDir="false" afterPath="$PROJECT_DIR$/binarySearch/lc81.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bit/lc1356.java" beforeDir="false" afterPath="$PROJECT_DIR$/bit/lc1356.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/lc64.java" beforeDir="false" afterPath="$PROJECT_DIR$/dp/lc64.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greedy/lc1403.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedy/lc1403.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/greedy/lc944.java" beforeDir="false" afterPath="$PROJECT_DIR$/greedy/lc944.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash/lc500.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash/lc500.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hash/lc811.java" beforeDir="false" afterPath="$PROJECT_DIR$/hash/lc811.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heap/RecentCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/heap/RecentCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/MyQueue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/Pair.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1200$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1200$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1200.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1200.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1356$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1356$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1356.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc1356.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc153.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc153.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc154.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc154.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc167.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc167.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc312.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc312.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc81.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc81.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc821.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc821.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/p.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/p.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/week198/lc5464.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/week198/lc5464.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/week198/lc5465.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/week198/lc5465.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/week198/lc5466.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/week198/lc5466.class" afterDir="false" />
-    </list>
+    <list default="true" id="7d032b11-0541-4557-a7ae-138542730f28" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -300,7 +266,7 @@
       <workItem from="1595335515825" duration="597000" />
       <workItem from="1595429658966" duration="1794000" />
       <workItem from="1595509066330" duration="74000" />
-      <workItem from="1595509220029" duration="2883000" />
+      <workItem from="1595509220029" duration="3652000" />
     </task>
     <servers />
   </component>
@@ -344,22 +310,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="884" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1595509090976" />
-    <state width="1493" height="159" key="GridCell.Tab.0.bottom" timestamp="1595514383880">
+    <state width="1493" height="159" key="GridCell.Tab.0.bottom" timestamp="1595517347114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="159" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595514383880" />
-    <state width="1493" height="159" key="GridCell.Tab.0.center" timestamp="1595514383880">
+    <state width="1493" height="159" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595517347114" />
+    <state width="1493" height="159" key="GridCell.Tab.0.center" timestamp="1595517347114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="159" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595514383880" />
-    <state width="1493" height="159" key="GridCell.Tab.0.left" timestamp="1595514383880">
+    <state width="1493" height="159" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595517347114" />
+    <state width="1493" height="159" key="GridCell.Tab.0.left" timestamp="1595517347114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="159" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595514383880" />
-    <state width="1493" height="159" key="GridCell.Tab.0.right" timestamp="1595514383880">
+    <state width="1493" height="159" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595517347114" />
+    <state width="1493" height="159" key="GridCell.Tab.0.right" timestamp="1595517347114">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="159" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595514383880" />
+    <state width="1493" height="159" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595517347114" />
     <state width="723" height="202" key="GridCell.Tab.1.bottom" timestamp="1587569934478">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
