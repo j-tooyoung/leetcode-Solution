@@ -21,39 +21,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d032b11-0541-4557-a7ae-138542730f28" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Array/lc1051.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/lc1200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/lc1252.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Array/lc1394.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/lc1374.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/String/lc804.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc68_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree/lc68_ii.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week198/lc5464.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week198/lc5465.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week198/lc5466.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Weeklycontest/week198/lc5467.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bit/lc1356.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bit/lc762.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hash/lc500.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/MyQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/lc03_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/lc1021.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stack/lc682.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Array/lc422.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hash/lc299.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/heap/lc451.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/lc821.java" beforeDir="false" afterPath="$PROJECT_DIR$/String/lc821.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design/MyQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/design/MyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/lc120.java" beforeDir="false" afterPath="$PROJECT_DIR$/dp/lc120.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/lc312.java" beforeDir="false" afterPath="$PROJECT_DIR$/dp/lc312.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/lc96.java" beforeDir="false" afterPath="$PROJECT_DIR$/dp/lc96.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dp/lc97.java" beforeDir="false" afterPath="$PROJECT_DIR$/dp/lc97.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graph/lc785.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph/lc785.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc120.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc120.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc785.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc785.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc821.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc821.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc96.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc96.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc97.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc97.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/week197/lc5461.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/week197/lc5461.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heap/RecentCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/heap/RecentCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/MyQueue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/MyQueue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/lc312.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/lc312.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/week198/lc5464.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/week198/lc5464.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/week198/lc5465.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/week198/lc5465.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/leetcodeSolution/week198/lc5466.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/leetcodeSolution/week198/lc5466.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +99,7 @@
       <recent name="H:\java project\leetcodeSolution\design" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lc5464">
+  <component name="RunManager" selected="Application.lc451">
     <configuration name="lc1356" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lc1356" />
       <module name="leetcodeSolution" />
@@ -130,15 +107,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="lc5461" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="week197.lc5461" />
+    <configuration name="lc451" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lc451" />
       <module name="leetcodeSolution" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="week197.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -172,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.lc451" />
         <item itemvalue="Application.lc5464" />
         <item itemvalue="Application.lc682" />
         <item itemvalue="Application.lc1356" />
         <item itemvalue="Application.lc96" />
-        <item itemvalue="Application.lc5461" />
       </list>
     </recent_temporary>
   </component>
@@ -302,6 +273,10 @@
       <workItem from="1594787328281" duration="3988000" />
       <workItem from="1595033920610" duration="773000" />
       <workItem from="1595072217555" duration="16718000" />
+      <workItem from="1595473569968" duration="604000" />
+      <workItem from="1595486954709" duration="779000" />
+      <workItem from="1595489304505" duration="4748000" />
+      <workItem from="1595495754575" duration="936000" />
     </task>
     <servers />
   </component>
@@ -325,9 +300,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="651" y="274" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1586931303305" />
-    <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1595075375301">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="478" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1595493141887">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state x="478" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.689@0.0.1280.689" timestamp="1595493141887" />
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1595075375301" />
     <state x="928" y="275" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1592727062536">
       <screen x="0" y="0" width="1536" height="824" />
@@ -341,41 +317,66 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="411" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1593223695681" />
-    <state x="884" y="168" key="FileChooserDialogImpl" timestamp="1594534486801">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="737" y="140" key="FileChooserDialogImpl" timestamp="1595474838678">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state x="737" y="140" key="FileChooserDialogImpl/0.0.1280.689@0.0.1280.689" timestamp="1595474838678" />
     <state x="884" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1594534486801" />
-    <state width="723" height="123" key="GridCell.Tab.0.bottom" timestamp="1595127464663">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="204" key="GridCell.Tab.-1.bottom" timestamp="1595491503828">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.-1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1595491503828" />
+    <state width="1237" height="204" key="GridCell.Tab.-1.center" timestamp="1595491503828">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.-1.center/0.0.1280.689@0.0.1280.689" timestamp="1595491503828" />
+    <state width="1237" height="204" key="GridCell.Tab.-1.left" timestamp="1595491503827">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.-1.left/0.0.1280.689@0.0.1280.689" timestamp="1595491503827" />
+    <state width="1237" height="204" key="GridCell.Tab.-1.right" timestamp="1595491503828">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="204" key="GridCell.Tab.-1.right/0.0.1280.689@0.0.1280.689" timestamp="1595491503828" />
+    <state width="1237" height="128" key="GridCell.Tab.0.bottom" timestamp="1595493739291">
+      <screen x="0" y="0" width="1280" height="689" />
+    </state>
+    <state width="1237" height="128" key="GridCell.Tab.0.bottom/0.0.1280.689@0.0.1280.689" timestamp="1595493739291" />
     <state width="723" height="123" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1595127464663" />
-    <state width="723" height="123" key="GridCell.Tab.0.center" timestamp="1595127464663">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="128" key="GridCell.Tab.0.center" timestamp="1595493739291">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1237" height="128" key="GridCell.Tab.0.center/0.0.1280.689@0.0.1280.689" timestamp="1595493739291" />
     <state width="723" height="123" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1595127464663" />
-    <state width="723" height="123" key="GridCell.Tab.0.left" timestamp="1595127464663">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="128" key="GridCell.Tab.0.left" timestamp="1595493739291">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1237" height="128" key="GridCell.Tab.0.left/0.0.1280.689@0.0.1280.689" timestamp="1595493739291" />
     <state width="723" height="123" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1595127464663" />
-    <state width="723" height="123" key="GridCell.Tab.0.right" timestamp="1595127464663">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="128" key="GridCell.Tab.0.right" timestamp="1595493739291">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1237" height="128" key="GridCell.Tab.0.right/0.0.1280.689@0.0.1280.689" timestamp="1595493739291" />
     <state width="723" height="123" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1595127464663" />
-    <state width="723" height="202" key="GridCell.Tab.1.bottom" timestamp="1587569934478">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1595491501613">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.689@0.0.1280.689" timestamp="1595491501613" />
     <state width="723" height="202" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587569934478" />
-    <state width="723" height="202" key="GridCell.Tab.1.center" timestamp="1587569934478">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1595491501612">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.689@0.0.1280.689" timestamp="1595491501612" />
     <state width="723" height="202" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1587569934478" />
-    <state width="723" height="202" key="GridCell.Tab.1.left" timestamp="1587569934478">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1595491501612">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.689@0.0.1280.689" timestamp="1595491501612" />
     <state width="723" height="202" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1587569934478" />
-    <state width="723" height="202" key="GridCell.Tab.1.right" timestamp="1587569934478">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1595491501613">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.689@0.0.1280.689" timestamp="1595491501613" />
     <state width="723" height="202" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1587569934478" />
     <state x="916" y="114" key="RollbackChangesDialog" timestamp="1592545529242">
       <screen x="0" y="0" width="1536" height="824" />
@@ -405,9 +406,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="805" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1594787619217" />
-    <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1595144289723">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="678" y="121" width="672" height="567" key="search.everywhere.popup" timestamp="1595491313836">
+      <screen x="0" y="0" width="1280" height="689" />
     </state>
+    <state x="678" y="121" width="672" height="567" key="search.everywhere.popup/0.0.1280.689@0.0.1280.689" timestamp="1595491313836" />
     <state x="814" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1595144289723" />
   </component>
   <component name="XDebuggerManager">

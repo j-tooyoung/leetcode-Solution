@@ -1,7 +1,7 @@
 /**
  *
  */
-public class lc933 {
+public class RecentCounter {
 
     
     public static void main(String[] args) {
