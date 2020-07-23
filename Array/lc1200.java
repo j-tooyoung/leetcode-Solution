@@ -5,8 +5,29 @@ import java.util.*;
  * https://leetcode-cn.com/problems/minimum-absolute-difference/
  */
 public class lc1200 {
-
     public List<List<Integer>> minimumAbsDifference(int[] arr) {
+        Arrays.sort(arr);
+        List<List<Integer>> res = new ArrayList<>();
+        int min = Integer.MAX_VALUE;
+        for (int i = 0; i < arr.length - 1; i++) {
+            int tmp = arr[i + 1] - arr[i];
+            // 找到新的最小差，清空原有结果
+            if (tmp < min) {
+                min = tmp;
+                res.clear();
+            }
+            //如果是最小值，加入res
+            if (tmp == min) {
+//                res.add(new ArrayList<Integer>(Arrays.asList(arr[i], arr[i + 1])));
+                res.add(Arrays.asList(arr[i], arr[i + 1]));
+
+            }
+        }
+
+        return res;
+    }
+
+    public List<List<Integer>> minimumAbsDifference1(int[] arr) {
         Arrays.sort(arr);
         List<List<Integer>> res = new ArrayList<>();
         List<Pair> list = new ArrayList<>();

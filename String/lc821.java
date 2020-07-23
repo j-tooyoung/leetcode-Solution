@@ -8,6 +8,20 @@ public class lc821 {
     public int[] shortestToChar(String S, char C) {
         int len = S.length();
         int[] res = new int[len];
+        int prev = 0;
+        for (int i = 0; i < len; i++) {
+            if (S.charAt(i) == C) {
+                res[i] = 0;
+            } else {
+
+            }
+        }
+        return res;
+    }
+
+    public int[] shortestToChar1(String S, char C) {
+        int len = S.length();
+        int[] res = new int[len];
         for (int i = 0; i < len; i++) {
             if (S.charAt(i) == C) {
                 res[i] = 0;

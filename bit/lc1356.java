@@ -7,6 +7,28 @@ import java.util.*;
 public class lc1356 {
 
     public int[] sortByBits(int[] arr) {
+//        Integer[] sortArr = new Integer[arr.length];
+//        for(int i = 0; i < arr.length; i++) {
+//            sortArr[i] = arr[i];
+//        }
+//        Arrays.sort(sortArr, new Comparator<Integer>() {
+//            public int compare(Integer a, Integer b) {
+//                int binaryCountA = bitof1(a), binaryCountB = bitof1(b);
+//                return (binaryCountA == binaryCountB) ? a - b :  binaryCountA - binaryCountB;
+//            }
+//        });
+//        for(int i = 0; i < arr.length; i++) {
+//            arr[i] = sortArr[i];
+//        }
+//        return arr;
+        return Arrays.stream(arr).boxed().sorted((a, b) -> Integer.bitCount(a) == Integer.bitCount(b) ? a - b : Integer.bitCount(a) - Integer.bitCount(b)).mapToInt(Integer::intValue).toArray();
+
+//        return Arrays.stream(arr).boxed().sorted(Comparator.comparingInt(i -> Integer.bitCount(i) * 10000 + i)).mapToInt(i -> i).toArray();
+
+
+    }
+
+    public int[] sortByBits1(int[] arr) {
         List<p> list = new ArrayList<>();
         int[] res = new int[arr.length];
         for (int i = 0; i < arr.length; i++) {
