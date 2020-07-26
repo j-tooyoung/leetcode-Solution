@@ -49,32 +49,32 @@ public class lc55 {
         return false;
     }
 
-        public static void main(String[] args) {
-        lc55 lc55 = new lc55();
-        int[] nums = {2, 3, 1, 1, 4};
-        System.out.println(lc55.canJump(nums));
-        int[] nums1 = {3, 2, 1, 0, 4};
-        System.out.println(lc55.canJump(nums1));
-
-        int testTime = 1000;
-        boolean flag = true;
-        for (int i = 0; i < testTime; i++) {
-            int[] arr = generateRandom.generateRandomArray();
-//            if (!lc55.canJump(arr)) {
-//                flag = false;
-//                System.out.println("错误测例:");
-//                String s = "[";
-//                for (int j = 0; j < arr.length - 1; j++) {
-//                    s += arr[j] + ",";
-//                }
-//                s += arr[arr.length - 1] + "]";
-//                System.out.println(s);
-////                generateRandom.printArray(arr);
-//                break;
-//            }
-        }
-        System.out.println();
-        System.out.println(flag ? "nice" : "it's wrong");
+    public static void main(String[] args) {
+//        lc55 lc55 = new lc55();
+//        int[] nums = {2, 3, 1, 1, 4};
+//        System.out.println(lc55.canJump(nums));
+//        int[] nums1 = {3, 2, 1, 0, 4};
+//        System.out.println(lc55.canJump(nums1));
+//
+//        int testTime = 1000;
+//        boolean flag = true;
+//        for (int i = 0; i < testTime; i++) {
+//            int[] arr = generateRandom.generateRandomArray();
+////            if (!lc55.canJump(arr)) {
+////                flag = false;
+////                System.out.println("错误测例:");
+////                String s = "[";
+////                for (int j = 0; j < arr.length - 1; j++) {
+////                    s += arr[j] + ",";
+////                }
+////                s += arr[arr.length - 1] + "]";
+////                System.out.println(s);
+//////                generateRandom.printArray(arr);
+////                break;
+////            }
+//        }
+//        System.out.println();
+//        System.out.println(flag ? "nice" : "it's wrong");
     }
 
 }

@@ -45,16 +45,16 @@ public class lc11 {
         System.out.println(lc11.maxArea(num));
         System.out.println(lc11.BFmaxArea(num));
 
-        boolean right = true;
-        for (int i = 0; i < 1000; i++) {
-            int[] height = generateRandom.generateRandomArray();
-            int[] cp1 = Arrays.copyOf(height, height.length);
-            if (lc11.maxArea(height) != lc11.BFmaxArea(cp1)) {
-                right = false;
-                System.out.println("错误测试例子");
-                generateRandom.printArray(height);
-            }
-        }
-        System.out.println(right ? "通过" : "失败");
+//        boolean right = true;
+//        for (int i = 0; i < 1000; i++) {
+//            int[] height = generateRandom.generateRandomArray();
+//            int[] cp1 = Arrays.copyOf(height, height.length);
+//            if (lc11.maxArea(height) != lc11.BFmaxArea(cp1)) {
+//                right = false;
+//                System.out.println("错误测试例子");
+//                generateRandom.printArray(height);
+//            }
+//        }
+//        System.out.println(right ? "通过" : "失败");
     }
 }
