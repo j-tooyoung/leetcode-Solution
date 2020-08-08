@@ -1,6 +1,5 @@
 package Week199;
 
-import java.util.Arrays;
 
 /**
  * 5472. 重新排列字符串
@@ -29,7 +28,7 @@ public class lc5472 {
     }
 
     public static String restoreString1(String s, int[] indices) {
-        StringBuilder sb = new StringBuilder();
+//        StringBuilder sb = new StringBuilder();
         char[] ch = s.toCharArray();
         int len = indices.length;
         for (int i = 0; i < len; i++) {
@@ -53,7 +52,7 @@ public class lc5472 {
         String s1 = "codeleet";
         int[] indices = {3, 1, 4, 2, 0};
         int[] indices1 = {4,5,6,7,0,2,1,3};
-//        System.out.println(restoreString(s, indices));
+        System.out.println(restoreString(s, indices));
         System.out.println(restoreString1(s1, indices1));
     }
 
