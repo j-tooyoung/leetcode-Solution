@@ -10,8 +10,8 @@ public class lc647 {
         int res = 0;
         char[] ch = s.toCharArray();
         for (int i = 0; i < len; i++) {
-            res += countPalindrome(ch, i, i + 1);
-            res += countPalindrome(ch, i, i);
+            res += countPalindrome(ch, i, i + 1);       //回文串长度为偶数
+            res += countPalindrome(ch, i, i);           //回文串长度为奇数
 //            int lo = i, hi = i;
 //            while (lo >= 0 && hi < len && s.charAt(lo) == s.charAt(hi)) {
 //                lo--;
