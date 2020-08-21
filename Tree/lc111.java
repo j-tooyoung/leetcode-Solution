@@ -56,4 +56,21 @@ public class lc111 {
 //        著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
     }
 
+    public int minDepth3(TreeNode root) {
+        if (root == null) return 0;
+        Queue<TreeNode> q = new LinkedList<>();
+        q.add(root);
+        int cnt = 0;
+        while (!q.isEmpty()) {
+            int size = q.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode tmp = q.poll();
+                if (tmp.left == null && tmp.right == null) return ++cnt;
+                if (tmp.left != null) q.add(tmp.left);
+                if (tmp.right != null) q.add(tmp.right);
+            }
+            ++cnt;
+        }
+        return cnt;
+    }
 }

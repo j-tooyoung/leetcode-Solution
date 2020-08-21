@@ -32,6 +32,23 @@ public class lc1022 {
         path.remove(path.size() - 1);
     }
 
+
+    public int sumRootToLeaf1(TreeNode root) {
+        return dfs(root,0);
+
+    }
+
+    private int dfs(TreeNode root,int sum) {
+        if (root == null) {
+            return 0;
+        }
+        sum = sum * 2 + root.val;
+        if (root.left == null && root.right == null) {
+            return sum;
+        }
+        return dfs(root.left, sum) + dfs(root.right, sum);
+    }
+
     public static void main(String[] args) {
 
     }

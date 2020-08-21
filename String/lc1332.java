@@ -5,6 +5,8 @@
 public class lc1332 {
 
     public int removePalindromeSub(String s) {
+        int len = s.length();
+
         return 0;
     }
 
