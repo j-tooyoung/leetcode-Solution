@@ -1,8 +1,8 @@
 /**
  * 647. 回文子串
  * https://leetcode-cn.com/problems/palindromic-substrings/
- *
  */
+
 public class lc647 {
 
     public static int countSubstrings(String s) {
@@ -75,6 +75,7 @@ public class lc647 {
     }
 
     public static void main(String[] args) {
+
         String s = "abc";
         String s1 = "aaa";
         String s2 = "aa";
