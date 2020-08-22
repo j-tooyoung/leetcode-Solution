@@ -6,6 +6,7 @@
 public class lc679 {
 
     public boolean judgePoint24(int[] nums) {
+
         return false;
     }
 
