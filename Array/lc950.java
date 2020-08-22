@@ -5,6 +5,7 @@
 public class lc950 {
 
     public int[] deckRevealedIncreasing(int[] deck) {
+
         return null;
     }
 

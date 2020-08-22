@@ -5,7 +5,6 @@
 public class lc806 {
 
     public int[] numberOfLines(int[] widths, String S) {
-
         return null;
     }
 

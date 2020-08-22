@@ -6,7 +6,25 @@
 public class lc1184 {
 
     public int distanceBetweenBusStops(int[] distance, int start, int destination) {
-        return 0;
+        int forwardDis = 0;
+        int backwardDis = 0;
+        int n = distance.length;
+        if (start == destination) return 0;
+        if (start > destination) {
+            int tmp = start;
+            start = destination;
+            destination = tmp;
+        }
+        for (int i = start; i < destination; i++) {
+            forwardDis += distance[i];
+        }
+        for (int i = destination; i < n; i++) {
+            backwardDis += distance[i];
+        }
+        for (int i = 0; i < start; i++) {
+            backwardDis += distance[i];
+        }
+        return Math.min(forwardDis, backwardDis);
     }
 
 }

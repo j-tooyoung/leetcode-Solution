@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -8,7 +9,16 @@ import java.util.List;
 public class lc1018 {
 
     public List<Boolean> prefixesDivBy5(int[] A) {
-        return null;
+        int total = 0;
+        List<Boolean> res = new ArrayList<>();
+        for (int i = 0; i < A.length; i++) {
+            total = total * 2 + A[i];
+            boolean flag = (total % 5 == 0) ? true : false;
+            // 避免溢出
+            total %= 5;
+            res.add(flag);
+        }
+        return res;
     }
 
 }

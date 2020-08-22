@@ -6,6 +6,9 @@
 public class lc1170 {
 
     public int[] numSmallerByFrequency(String[] queries, String[] words) {
+        int lenQ = queries.length;
+        int lenW = words.length;
+
         return null;
     }
 

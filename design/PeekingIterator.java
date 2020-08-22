@@ -4,6 +4,7 @@ import java.util.Iterator;
  * ClassName: PeekingIterator
  * Package: PACKAGE_NAME
  * Description:
+ * 284. 顶端迭代器
  * https://leetcode-cn.com/problems/peeking-iterator/
  * @date: 2020/4/13 10:16
  * @author: tooyoung
