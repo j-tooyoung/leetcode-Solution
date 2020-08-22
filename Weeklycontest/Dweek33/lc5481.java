@@ -31,33 +31,9 @@ public class lc5481 {
         return res + maxMulti;
     }
 
-    public static int minOperations1(int[] nums) {
-        int res = 0;
-        boolean flag = false;
-        int cnt = 0;
-        int len = nums.length;
-        Queue<Integer> q = new LinkedList<>();
-        for (int i = 0; i < len; i++) {
-            q.add(nums[i]);
-        }
-        while (!q.isEmpty()) {
-
-        }
-        return res;
-    }
-
-    private static int bitOf1(int num) {
-        int cnt = 0;
-        while (num != 0) {
-            num &= (num - 1);
-            cnt++;
-        }
-        return cnt;
-    }
 
     public static void main(String[] args) {
 //        System.out.println(Math.pow(4, 0.5));
-        System.out.println(bitOf1(4));
         int[] nums = {1, 5};
         int[] nums1 = {123456789,987654321};        // 62
 //        System.out.println(minOperations(nums));
