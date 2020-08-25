@@ -2,6 +2,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 491. 递增子序列
+ * https://leetcode-cn.com/problems/increasing-subsequences/
  *
  */
 public class lc491 {
