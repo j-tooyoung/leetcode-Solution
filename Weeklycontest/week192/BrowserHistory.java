@@ -1,5 +1,10 @@
 package week192;
 
+/**
+ * 1472. 设计浏览器历史记录
+ * https://leetcode-cn.com/problems/design-browser-history/
+ *
+ */
 class BrowserHistory {
 
     public BrowserHistory(String homepage) {
