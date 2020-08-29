@@ -7,6 +7,7 @@ import java.util.List;
  */
 public class lc1104 {
     public List<Integer> pathInZigZagTree(int label) {
+
         return null;
     }
 }
