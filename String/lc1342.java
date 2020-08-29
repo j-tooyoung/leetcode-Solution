@@ -1,10 +1,9 @@
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Stack;
 
 /**
- *
+ * 1342. 将数字变成 0 的操作次数
+ * https://leetcode-cn.com/contest/biweekly-contest-19/problems/number-of-steps-to-reduce-a-number-to-zero/
  */
 public class lc1342 {
 
