@@ -7,6 +7,22 @@ import java.util.Arrays;
  */
 public class c2 {
 
+    public static int breakfastNumber2(int[] staple, int[] drinks, int x) {
+        int res = 0;
+        int mod = 1000000007;
+
+        Arrays.sort(drinks);
+        Arrays.sort(staple);
+        int last = drinks.length - 1;
+        for (int i = 0; i < staple.length; i++) {
+            while (last >= 0 && staple[i] + drinks[last] > x) last--;
+            res = (res + last + 1) % mod;
+        }
+        return res;
+
+//        return (int) (res % mod);
+    }
+
     //
     public static int breakfastNumber(int[] staple, int[] drinks, int x) {
         int res = 0;
