@@ -8,7 +8,6 @@ public class lc_a {
 
     public int paintingPlan(int n, int k) {
         if (n >= k) {
-
         }
         return 0;
     }
