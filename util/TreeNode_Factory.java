@@ -6,7 +6,8 @@ import java.util.Queue;
  * TreeNode工厂
  */
 public class TreeNode_Factory implements TestHelperFactory<TreeNode> {
-
+        // todo fix 二叉树生成有误
+//    TreeNode node = treeNode_factory.produce("[5,4,8,11,null,13,4,7,2,null,null,5,1]");
 
     @Override
     public TreeNode produce(String s) {
