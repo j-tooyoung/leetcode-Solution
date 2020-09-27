@@ -57,14 +57,14 @@ public class lc113 {
         TreeNode node = treeNode_factory.produce("[5,4,8,11,null,13,4,7,2,null,null,5,1]");
         TreeOperation.show(node);
 
-        List<List<Integer>> tmp = pathSum(node, 22);
-        System.out.println(tmp.size());
-        for (List<Integer> t : tmp) {
-            for (int val : t) {
-                System.out.print(val + " ");
-            }
-            System.out.println("");
-        }
+//        List<List<Integer>> tmp = pathSum(node, 22);
+//        System.out.println(tmp.size());
+//        for (List<Integer> t : tmp) {
+//            for (int val : t) {
+//                System.out.print(val + " ");
+//            }
+//            System.out.println("");
+//        }
     }
 
 }
