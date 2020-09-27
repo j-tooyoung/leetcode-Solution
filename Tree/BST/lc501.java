@@ -43,47 +43,41 @@ public class lc501 {
 
 
     // 暴力
-//    List<Integer> list = new ArrayList<>();
+    List<Integer> list = new ArrayList<>();
 //    List<Integer> res = new ArrayList<>();
-//
-//    public int[] findMode1(TreeNode root) {
-//        dfs(root);
-//        Map<Integer, Integer> map = new HashMap<>();
-//        for (int val : list) {
-////            if (!map.containsKey(val)) {
-////                map.put(val, 0);
-////            } else {
-////                int num = map.get(val);
-////                map.put(val, num + 1);
-////            }
-////            map.put(val, map.getOrDefault(map.get(val), 0) + 1); 错误
-//            map.put(val, map.getOrDefault(val, 0) + 1);
-//        }
-//        int freq = 0;
-//        for (int val : map.keySet()) {
-//            freq = Math.max(freq, map.get(val));
+
+    public int[] findMode1(TreeNode root) {
+        dfs(root);
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int val : list) {
+            map.put(val, map.getOrDefault(val, 0) + 1);
+        }
+        int freq = 0;
+        for (int val : map.keySet()) {
+            freq = Math.max(freq, map.get(val));
+//            System.out.println(val + " " + map.get(val));
 //            System.out.println(freq);
+        }
+        for (int val : map.keySet()) {
+            if (freq == map.get(val)) {
+                res.add(val);
+            }
+        }
+        return res.stream().mapToInt(Integer::intValue).toArray();
+
+//        int[] nums = new int[res.size()];
+//        for (int i = 0; i < res.size(); i++) {
+//            nums[i] = res.get(i);
 //        }
-//        for (int val : map.keySet()) {
-//            if (freq == map.get(val)) {
-//                res.add(val);
-//            }
-//        }
-//        //
-////        int[] nums = new int[res.size()];
-////        for (int i = 0; i < res.size(); i++) {
-////            nums[i] = res.get(i);
-////        }
-////        return nums;
-//// list转换为数组，使用流
-//        return list.stream().mapToInt(Integer::intValue).toArray();
-//    }
-//
-//    private void dfs(TreeNode root) {
-//        if (root == null) return;
-//        dfs(root.left);
-//        list.add(root.val);
-//        dfs(root.right);
-//    }
+//        return nums;
+// list转换为数组，使用流
+    }
+
+    private void dfs(TreeNode root) {
+        if (root == null) return;
+        dfs(root.left);
+        list.add(root.val);
+        dfs(root.right);
+    }
 
 }
