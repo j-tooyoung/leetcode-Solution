@@ -1,7 +1,6 @@
 package week206;
 
-import java.util.Arrays;
-import java.util.Comparator;
+import java.util.*;
 
 /**
  * @Classname lc5024
@@ -11,49 +10,125 @@ import java.util.Comparator;
  * 5513. 连接所有点的最小费用
  * https://leetcode-cn.com/contest/weekly-contest-206/problems/min-cost-to-connect-all-points/
  */
+// prim算法
+//public class lc5513 {
+//    static int n;
+//    static int N = 1010;
+//    static int INF = 0x3f3f3f3f;
+//    static boolean[] vis = new boolean[N];
+//    static int[][] graph = new int[N][N];
+//    static int[] dist = new int[N];
+//
+//    static int prim() {
+//        Arrays.fill(dist, INF);
+//        int res = 0;
+//        for (int i = 0; i < n; i++) {
+//            int t = -1;
+//            for (int j = 0; j < n; j++) {
+//                if (!vis[j] && (t == -1 || dist[j] < dist[t])) {
+//                    t = j;
+//                }
+//            }
+//            vis[t] = true;
+//            if (i != 0) res += dist[t];
+//            for (int j = 0; j < n; j++) {
+//                dist[j] = Math.min(dist[j], graph[t][j]);
+//            }
+//        }
+//        return res;
+//    }
+//
+//    public static int minCostConnectPoints(int[][] points) {
+//
+//        n = points.length;
+//
+//        for (int i = 0; i < n; i++) {
+//            Arrays.fill(graph[i], INF);
+//        }
+//        Arrays.fill(vis, false);
+//        for (int i = 0; i < n; i++) {
+//            for (int j = 0; j < n; j++) {
+//                graph[i][j] = graph[j][i] = Math.abs(points[i][0] - points[j][0]) + Math.abs(points[i][1] - points[j][1]);
+//            }
+//        }
+//        int t = prim();
+//        return t;
+//    }
+//
+//}
 
+// kursal算法
+    // todo 速度太慢
 public class lc5513 {
-    static int n;
-    static int N = 1010;
-    static int INF = 0x3f3f3f3f;
-    static boolean[] vis = new boolean[N];
-    static int[][] graph = new int[N][N];
-    static int[] dist = new int[N];
 
-    static int prim() {
-        Arrays.fill(dist, INF);
+    int[] f;
+
+    int find(int x) {
+//        System.out.println(x + " " + find(x));
+
+//        return (x == f[x]) ? x : find(f[x]);
+        if (x == f[x]) return x;
+        f[x] = find(f[x]);
+        return f[x];
+    }
+
+    public int minCostConnectPoints(int[][] points) {
         int res = 0;
+        int n = points.length;
+        f = new int[n];
+        // 并查集初始化
         for (int i = 0; i < n; i++) {
-            int t = -1;
-            for (int j = 0; j < n; j++) {
-                if (!vis[j] && (t == -1 || dist[j] < dist[t])) {
-                    t = j;
-                }
+            f[i] = i;
+        }
+        List<Edge> list = new ArrayList<>();
+        for (int i = 0; i < n; i++) {
+            for (int j = i + 1; j < n; j++) {
+                int dist = Math.abs(points[i][0] - points[j][0]) + Math.abs(points[i][1] - points[j][1]);
+                Edge edge = new Edge(i, j, dist);
+                list.add(edge);
             }
-            vis[t] = true;
-            if (i != 0) res += dist[t];
-            for (int j = 0; j < n; j++) {
-                dist[j] = Math.min(dist[j], graph[t][j]);
+        }
+        Collections.sort(list);
+        for (Edge edge : list) {
+            int x = edge.x;
+            int y = edge.y;
+            int dist = edge.dist;
+            int px = find(x);
+            int py = find(y);
+            if (px != py) {
+                // 链接点x 和点y
+                f[py] = py;
+                res += dist;
+
             }
+
         }
         return res;
     }
 
-    public static int minCostConnectPoints(int[][] points) {
+    public static void main(String[] args) {
+        lc5513 lc5513 = new lc5513();
+//        IntArr_Two_Factory   IntArr_Two_Factory()
+        int[][] points = {{0, 0}, {2, 2}, {3, 10}, {5, 2}, {7, 0}};
+        System.out.println(lc5513.minCostConnectPoints(points));
 
-        n = points.length;
+    }
+}
 
-        for (int i = 0; i < n; i++) {
-            Arrays.fill(graph[i], INF);
-        }
-        Arrays.fill(vis, false);
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j++) {
-                graph[i][j] = graph[j][i] = Math.abs(points[i][0] - points[j][0]) + Math.abs(points[i][1] - points[j][1]);
-            }
-        }
-        int t = prim();
-        return t;
+class Edge implements Comparable<Edge>{
+    int x;
+    int y;
+    int dist;
+
+    public Edge(int x, int y, int dist) {
+        this.x = x;
+        this.y = y;
+        this.dist = dist;
+    }
+
+    @Override
+    public int compareTo(Edge edge) {
+        return this.dist - edge.dist;
     }
 
 }
