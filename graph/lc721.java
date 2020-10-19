@@ -1,7 +1,7 @@
-/**
- * union find
- *
- */
-public class lc721 {
-
-}
+///**
+// * union find
+// *
+// */
+//public class lc721 {
+//
+//}
