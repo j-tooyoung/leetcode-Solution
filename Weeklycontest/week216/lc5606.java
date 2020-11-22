@@ -1,7 +1,10 @@
-package week216;/**
+package week216;
+
+/**
  * @Classname lc5668
- * @Description 
+ * @Description
  * @Date 2020/11/15 23:44
  * @Created by j-tooyoung
- */public class lc5668 {
+ */
+public class lc5606 {
 }
