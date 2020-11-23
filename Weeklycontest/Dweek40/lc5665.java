@@ -1,7 +1,10 @@
-package Dweek40;/**
+package Dweek40;
+
+/**
  * @Classname lc5665
- * @Description 
+ * @Description
  * @Date 2020/11/15 23:43
  * @Created by j-tooyoung
- */public class lc5665 {
+ */
+public class lc5665 {
 }

@@ -1,7 +1,11 @@
-package Week217;/**
+package Week217;
+
+/**
  * @Classname lc5772
- * @Description 
+ * @Description
  * @Date 2020/11/22 18:11
  * @Created by j-tooyoung
- */public class lc5772 {
+ */
+public class lc5772 {
+
 }
