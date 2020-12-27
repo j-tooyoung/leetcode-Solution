@@ -1,3 +1,4 @@
+import java.util.concurrent.CountDownLatch;
 import java.util.function.IntConsumer;
 
 /**
@@ -6,10 +7,12 @@ import java.util.function.IntConsumer;
  *
  */
 public class FizzBuzz {
+
     private int n;
 
     public FizzBuzz(int n) {
         this.n = n;
+
     }
 
     // printFizz.run() outputs "fizz".
