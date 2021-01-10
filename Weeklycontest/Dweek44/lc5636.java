@@ -1,4 +1,4 @@
-package week223;
+package Dweek44;
 
 /**
  * @Classname lc5627
@@ -6,10 +6,11 @@ package week223;
  * @Date 2020/12/13 10:37
  * @Created by j-tooyoung
  */
-public class lc5644 {
+public class lc5636 {
 
-    public int minOperations(int[] target, int[] arr) {
+
+    public int checkWays(int[][] pairs) {
+
         return 0;
     }
-
 }
