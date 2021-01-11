@@ -12,21 +12,38 @@ public class lc1300 {
 
     public int findBestValue(int[] arr, int target) {
         Arrays.sort(arr);
+        int[] pre = new int[arr.length + 1];
+        for (int i = 0; i < arr.length; i++) {
+            pre[i + 1] = pre[i] + arr[i];
+        }
+        int lo = 1, hi = Arrays.stream(arr).max().getAsInt();
+        int diff = target;
+        int len = arr.length;
+        int ans = 0;
+        for (int i = lo; i <= hi; i++) {
+            int idx = get(arr, i);
+            int sum = pre[idx] + i * (len - idx);
+            if (Math.abs(sum - target) < diff) {
+                diff = Math.abs(sum - target);
+                ans = i;
+            }
+        }
+        return ans;
+    }
 
-        int lo = 0, hi = 100_000;
+    // 大于i的第一个位置
+    private int get(int[] arr, int target) {
+        int lo = 0, hi = arr.length;
         while (lo < hi) {
             int mid = lo + hi >> 1;
-            if (check(mid, target, arr)) {
-                lo = mid + 1;
-            } else {
+            if (arr[mid] > target) {
                 hi = mid;
+            } else {
+                lo = mid + 1;
             }
         }
         return lo;
     }
 
-    private boolean check(int mid, int target, int[] arr) {
 
-        return false;
-    }
 }
