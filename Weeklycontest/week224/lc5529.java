@@ -6,11 +6,9 @@ package week224;
  * @Date 2020/12/13 10:37
  * @Created by j-tooyoung
  */
-public class lc5636 {
+public class lc5529 {
 
-
-    public int checkWays(int[][] pairs) {
-
-        return 0;
+    public boolean canMouseWin(String[] grid, int catJump, int mouseJump) {
+        return false;
     }
 }

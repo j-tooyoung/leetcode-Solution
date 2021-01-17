@@ -13,9 +13,7 @@ public class lc1437 {
         int prev = 0;
         int cnt = 0;
         for (int i = 0; i < len; i++) {
-            if (nums[i] == 0) {
-                continue;
-            } else {
+            if (nums[i] == 1) {
                 ++cnt;
                 if (cnt >= 2) {
                     if (i - prev - 1 < k) {
