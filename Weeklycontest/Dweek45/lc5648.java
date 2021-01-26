@@ -1,4 +1,4 @@
-package week225;
+package Dweek45;
 
 /**
  * @Classname lc5627
@@ -6,6 +6,6 @@ package week225;
  * @Date 2020/12/13 10:37
  * @Created by j-tooyoung
  */
-public class lc5529 {
+public class lc5648 {
 
 }

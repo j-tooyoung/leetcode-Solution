@@ -1,4 +1,4 @@
-package week225;
+package week226;
 
 /**
  * @Classname lc5628
@@ -6,11 +6,9 @@ package week225;
  * @Date 2020/12/13 10:36
  * @Created by j-tooyoung
  */
-public class lc5653 {
+public class lc5645 {
 
-    public int minimumBoxes(int n) {
-        return 0;
-    }
+
 }
 
 

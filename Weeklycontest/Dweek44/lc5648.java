@@ -6,11 +6,9 @@ package Dweek44;
  * @Date 2020/12/13 10:37
  * @Created by j-tooyoung
  */
-public class lc5636 {
+public class lc5648 {
 
-
-    public int checkWays(int[][] pairs) {
-
-        return 0;
+    public int[] waysToFillArray(int[][] queries) {
+        return null;
     }
 }
